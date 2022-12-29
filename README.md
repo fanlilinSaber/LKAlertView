@@ -12,13 +12,13 @@ APP弹窗提示组件 类似系统的 AlertView
 
 | 效果  | 预览图 |
 | ---  | --- |
-| **常规提示** | <img src = "https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/001.png" height = 200 /> |
-| **自定义内容** | ![Image text](https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/002.png) |
-| **文本多行提示** | ![Image text](https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/003.png) |
-| **多按钮操作** | ![Image text](https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/004.png) |
-| **底部弹窗样式** | ![Image text](https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/005.png) |
-| **弹窗输入框** | ![Image text](https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/006.png) |
-| **底部弹窗图片+文字** | ![Image text](https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/007.png) |
+| **常规提示** | <img src = "https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/001.png" width = 375 /> |
+| **自定义内容** | <img src = "https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/002.png" width = 375 /> |
+| **文本多行提示** | <img src = "https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/003.png" width = 375 /> |
+| **多按钮操作** | <img src = "https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/004.png" width = 375 /> |
+| **底部弹窗样式** | <img src = "https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/005.png" width = 375 /> |
+| **弹窗输入框** | <img src = "https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/006.png" width = 375 />|
+| **底部弹窗图片+文字** | <img src = "https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/007.png" width = 375 /> |
 
 ## 安装
 
