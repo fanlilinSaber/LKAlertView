@@ -12,7 +12,7 @@ APP弹窗提示组件 类似系统的 AlertView
 
 | 效果  | 预览图 |
 | ---  | --- |
-| **常规提示** | ![Image text](https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/001.png) |
+| **常规提示** | <img src = "https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/001.png" height = 200 /> |
 | **自定义内容** | ![Image text](https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/002.png) |
 | **文本多行提示** | ![Image text](https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/003.png) |
 | **多按钮操作** | ![Image text](https://github.com/fanlilinSaber/LKExampleImages/blob/main/LKAlertView/004.png) |
