@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xF8-ND-2Ew">
+                                <rect key="frame" x="0.0" y="48" width="414" height="283.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vs9-Vh-KkJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
+                                        <state key="normal" title="常规提示"/>
+                                        <connections>
+                                            <action selector="test01:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4UM-Hu-KyB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPz-TE-KFs">
+                                        <rect key="frame" x="0.0" y="30" width="414" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="自定义内容"/>
+                                        <connections>
+                                            <action selector="test09:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t8H-n3-2Lz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DtI-xk-OOS">
+                                        <rect key="frame" x="0.0" y="64.5" width="414" height="30"/>
+                                        <state key="normal" title="文本多行提示"/>
+                                        <connections>
+                                            <action selector="test02:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a8p-9C-1UY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Id-14-KkX">
+                                        <rect key="frame" x="0.0" y="94.5" width="414" height="30"/>
+                                        <state key="normal" title="多按钮操作"/>
+                                        <connections>
+                                            <action selector="test03:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SNS-Cs-jfm"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2b-un-iDa">
+                                        <rect key="frame" x="0.0" y="124.5" width="414" height="30"/>
+                                        <state key="normal" title="底部弹窗样式"/>
+                                        <connections>
+                                            <action selector="test04:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fZm-7K-bSd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWk-YN-xT5">
+                                        <rect key="frame" x="0.0" y="154.5" width="414" height="30"/>
+                                        <state key="normal" title="系统弹窗"/>
+                                        <connections>
+                                            <action selector="test005:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rln-9I-TKi"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dd-aS-ymU">
+                                        <rect key="frame" x="0.0" y="184.5" width="414" height="30"/>
+                                        <state key="normal" title="弹输入框"/>
+                                        <connections>
+                                            <action selector="test006:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V54-Nf-Cce"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PqM-cI-qOF">
+                                        <rect key="frame" x="0.0" y="214.5" width="414" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="底部弹窗图片+文字"/>
+                                        <connections>
+                                            <action selector="test07:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M4E-1K-KNs"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pB-Ij-5j7">
+                                        <rect key="frame" x="0.0" y="249" width="414" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="挑选底部弹窗表单"/>
+                                        <connections>
+                                            <action selector="test08:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gLJ-eg-10w"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xF8-ND-2Ew" secondAttribute="trailing" id="2Wj-ls-8zr"/>
+                            <constraint firstItem="xF8-ND-2Ew" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TdO-kE-4xa"/>
+                            <constraint firstItem="xF8-ND-2Ew" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gbM-Pu-7IM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="130.58035714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

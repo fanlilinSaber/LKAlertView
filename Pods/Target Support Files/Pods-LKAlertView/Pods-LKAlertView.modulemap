@@ -1,0 +1,6 @@
+framework module Pods_LKAlertView {
+  umbrella header "Pods-LKAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}
