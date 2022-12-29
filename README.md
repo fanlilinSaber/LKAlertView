@@ -29,43 +29,43 @@ APP弹窗提示组件 类似系统的 AlertView
 ## 更新日志
 
 * 2022年12月29日 `v1.3.3`
- - 1.内容间距更新到UI4.2标准
+  - 1.内容间距更新到UI4.2标准
 
 * 2022年12月21日 `v1.3.2`
- - 1.默认字体颜色更新到UI4.2标准
+  - 1.默认字体颜色更新到UI4.2标准
 
 * 2022年12月3日 `v1.3.1`
- - 1.新增支持添加自定义视图
+  - 1.新增支持添加自定义视图
 ```Objective-C
 /// 添加自定义视图（需要自定义view内部满足自动布局约束条件）
 /// @param handler edges：调整内边距；默认 = UIEdgeInsetsMake(0, 0, 0, 0)
 - (void)addCustomView:(UIView *(^)(UIEdgeInsets *edges))handler;
 ```
- - 2.优化其他字段逻辑
+  - 2.优化其他字段逻辑
 
 * 2022年11月8日 `v1.3.0`
- - 1.优化
+  - 1.优化
 
 * 2022年4月12日 `v1.2.0`
- - 1. `AlertAction` 新增图片加文本样式
- - 2. 新增`actionHandler`属性
+  - 1. `AlertAction` 新增图片加文本样式
+  - 2. 新增`actionHandler`属性
 ```Objective-C
 /// 多个action的时候统一回调（注意：如果action本身实现了handler这里不会重复调用）
 @property (nonatomic, copy) void (^actionHandler)(LKAlertAction *action);
 ```
 
 * 2022年3月8日 `v1.1.3`
- - 1.`LKAlertAction`默认样式新增 LKAlertActionStyleDelete
- - 2.修复`LKAlertView` 不设置message高度显示错位
+  - 1.`LKAlertAction`默认样式新增 LKAlertActionStyleDelete
+  - 2.修复`LKAlertView` 不设置message高度显示错位
 
 * 2021年10月22日 `v1.1.2`
- - 1.优化`LKAlertViewStyleActionSheet`样式下 取消按钮的默认颜色
+  - 1.优化`LKAlertViewStyleActionSheet`样式下 取消按钮的默认颜色
 
 * 2021年10月21日 `v1.1.1`
- - 1.适配刘海屏
+  - 1.适配刘海屏
 
 * 2021年09月18日 `v1.1.0`
- - 1.支持添加输入控件UITextField；UITextField样式可以自定义
+  - 1.支持添加输入控件UITextField；UITextField样式可以自定义
 ```Objective-C
 [alertView addTextFieldWithConfigurationHandler:^(UITextField *textField, UIView *contentView, LKAlertTextFieldMaker *make) {
     textField.font = [UIFont systemFontOfSize:15 weight:UIFontWeightRegular];
@@ -98,4 +98,4 @@ APP弹窗提示组件 类似系统的 AlertView
 }];
 ```
 * 2021年07月14日 `v1.0.2`
- - 1.新增底部弹窗样式
+  - 1.新增底部弹窗样式
